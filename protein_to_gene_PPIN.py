@@ -20,7 +20,7 @@ def open_mapping(filename):
 map1 = open_mapping('mapping_file.csv')
 
 #open network to be modified
-f = open('PPIN.tsv')
+f = open('network_file.tsv')
 csv_reader = csv.reader(f, delimiter="\t")
 
 #ignores the first row
